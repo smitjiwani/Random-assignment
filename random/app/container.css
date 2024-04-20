@@ -1,0 +1,106 @@
+.container {
+    width: 80rem;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.right{
+    display: flex;
+    float: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.closebutton{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: 1px solid #aaa;
+    margin: 0 10px;
+    text-align: center;
+    padding: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filterbutton{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: 1px solid #aaa;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container table th,
+.container table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.container table thead {
+    background-color: #f2f2f2;
+}
+
+.container table a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container .pagination a {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container .pagination select {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+}
+
+
+
+.container .pagination a:hover {
+    background-color: #f2f2f2;
+}
+
+.container .pagination span {
+    margin: auto 20px;
+    color: #aaa;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    background-color: #f2f2f2;
+}
+
+.active {
+    background-color: orange;
+}
+
